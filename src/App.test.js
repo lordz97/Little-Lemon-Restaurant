@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import { BookingPage } from "./Component/BookingPage";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("render  BookingForm", () => {
+	render(<BookingPage />);
+	const elt = screen.getByText("Choose the time");
+	expect(elt).toBeInTheDocument();
+});
+
+test("test the initialize function", () => {
+	render(<BookingPage />);
 });

@@ -5,6 +5,8 @@ const colors = {
 	bgButton: "#F4CE14",
 	textBox: "#F4CE14",
 	price: "#EE9972",
+	bgResa: "#495E57",
+	focusBorderColor: "#F4CE14",
 };
 
 const fonts = {

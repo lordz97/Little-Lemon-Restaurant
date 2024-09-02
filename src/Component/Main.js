@@ -55,11 +55,13 @@ export const Main = ({ children }) => (
 		{children}
 	</main>
 );
-/* <Image
+/* <HStack position="relative" w="65%" mt={15} justify="end">
+					<Image
 						src={food}
-						maxH={"100%"}
-						w="45%"
-						mt={16}
-						objectFit="fill"
+						mt={10}
+						maxH="10%"
+						w="50%"
+						objectFit="contain"
 						borderRadius={16}
-					/> */
+					/>
+				</HStack> */
